@@ -11,23 +11,23 @@
     <title>iPhone</title>
 </head>
 <body>
-    <header>
+    <header class="prechu-header">
         <img src="images/logo-header.png" alt="logo" class="logo-img">
 
         <h1 class="logo-text">Prechu</h1>
 
-        <nav>
+        <nav class="header-navigation-menu">
             <a href="#">Contact</a>
             <a href="#">Services</a>
             <a href="#">Products</a>
             <a href="#">Home</a>
         </nav>
+
+        <div class="clearfix"></div>
     </header>
 
-    <div class="clearfix"></div>
-
     <section class="hero">
-        <div class="hero-iphone"></div>
+        <img src="images/iphone-banner.png" alt="iPhone" class="hero-iphone-image">
 
         <div class="hero-text">
             <h1 class="hero-title">Lorem Ipsum is simply</h1>
@@ -35,60 +35,56 @@
             <span class="hero-subtitle">dummy text of the </span>
             <span class="hero-subtitle">printing & typesetting</span>
 
-            <button class="hero-button">
-                <a href="#" class="hero-link">
-                    <img src="images/tick-banner.png" alt="tick" class="hero-tick">
-                    Sign up now
-                </a> 
-                
-            </button>
+            <a href="#" class="hero-button">
+                <img src="images/tick-banner.png" alt="tick" class="hero-tick">
+                Sign up now
+            </a> 
         </div>
     </section>
 
     <main>
-        <article class="icon-block margin-right">
-            <div class="pencil-icon"></div>
+        <article class="card-container margin-right">
+            <div class="icon-container pencil-icon"></div>
             <h1 class="block-title">Contrary to popular</h1>
             <p class="block-text">Lorem Ipsum is not simply random text. It has roots in a piece </p>
         </article>
 
-        <article class="icon-block margin-right">
-            <div class="computer-icon"></div>
+        <article class="card-container margin-right">
+            <div class="icon-container computer-icon"></div>
             <h1 class="block-title">Contrary to popular</h1>
             <p class="block-text">Lorem Ipsum is not simply random text. It has roots in a piece </p>
         </article>
 
-        <article class="icon-block">
-            <div class="shopping-icon"></div>
+        <article class="card-container">
+            <div class="icon-container shopping-icon"></div>
             <h1 class="block-title">Contrary to popular</h1>
             <p class="block-text">Lorem Ipsum is not simply random text. It has roots in a piece </p>
         </article>
     </main>
 
-    <section class="under-footer">
-        <div class="under-foot">
-            <h1 class="under-title">The Shopping cart</h1>
-            <div class="under-img"></div>
-        </div>
+    <div class="center-wrapper">
+        <section class="shopping-cart-section">
+            <h2 class="shopping-cart-title">The Shopping cart</h2>
+    
+            <img src="images/cart-icon.png" alt="prechu-cart" class="prechu-cart-image">
+    
+            <aside class="cart-aside">
+                <h1 class="cart-aside-title">Some Bullet text here</h1>
+                <p class="cart-aside-text">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    Lorem Ipsum has been the industry's standard dummy text ever
+                    When an unknown printer took a galley of type and scrambled
+                    It to make a type specimen book. It has survived not only five centuries
+                    But also the leap into electronic typesetting,
+                    Remaining essentially unchanged. It was popularised
+                    The release of Letraset sheets containing Lorem Ipsum passages
+                </p>
+            </aside>
+        </section>
+    </div>
 
-        <aside class="under-text">
-            <h1 class="under-text-title">Some Bullet text here</h1>
-            <p class="under-text-paragraph">
-                Lorem Ipsum is simply dummy text of the printing and typesetting 
-                Lorem Ipsum has been the industry's standard dummy text ever 
-                When an unknown printer took a galley of type and scrambled 
-                It to make a type specimen book. It has survived not only five centuries
-                But also the leap into electronic typesetting,
-                Remaining essentially unchanged. It was popularised 
-                The release of Letraset sheets containing Lorem Ipsum passages
-            </p>
-        </aside>
-    </section>
-
-    <div class="clearfix"></div>
-
-    <footer>
-        <small class="copyright">
+    <footer class="prechu-footer">
+        <small class="prechu-copyright">
             Copyright © 2012-2013 cssauthor.com
         </small>
     </footer>

@@ -7,55 +7,79 @@ body{
     clear: both;
 }
 
-header{
+.center-wrapper{
+    text-align: center;
+}
+
+.prechu-header{
     padding: 23px 115px 19px 150px;
 }
 
-.logo-img, .logo-text{
-    display: inline-block;
-    float: left;
+.logo-text{
+    display: inline;
 
     font-size: 42px;
-    letter-spacing: 1,5px;
     font-weight: 400;
-
-    margin-right: 12px;
+    vertical-align: middle;
+    margin: 0;
 }
 
-nav a{
-    float: right;
+.logo-img{
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: middle;
 
+    width: 44px;
+    height: 44px;
+}
+
+.header-navigation-menu{
+    float: right;
+    line-height: 44px;
+}
+
+.header-navigation-menu a{
     text-decoration: none;
     font-size: 20px;
     color: #6C6C6C;
 
     margin-left: 45px;
-    margin-top: 11px;
-}
 
-.hero{
-    background: url("../images/background-banner.png") no-repeat center / cover;
-    width: 100%;
-    padding: 40px 192px 16px 177px;
     position: relative;
 }
 
-.hero-iphone{
+.header-navigation-menu a:hover::before{
+    content: '';
+    width: 100%;
+    position: absolute;
+    height: 3px;
+    background: #5094F2;
+    top: 51px;
+}
+
+.hero{
+    text-align: center;
+    background: url("../images/background-banner.png") no-repeat center / cover;
+    padding: 40px 0 16px 0;
+    position: relative;
+}
+
+.hero-iphone-image{
     display: inline-block;
     width: 345px;
     height: 436px;
 
     margin-right: 100px;
-    background: url("../images/iphone-banner.png") no-repeat center / cover;
 }
 
 .hero-text{
     display: inline-block;
-    position: absolute;
+    text-align: left;
+    vertical-align: bottom;
+    margin-bottom: 134px;
 }
 
 .hero-title{
-    margin-top: 120px;
     display: block;
     font-size: 42px;
     color: white;
@@ -66,43 +90,50 @@ nav a{
     display: block;
     font-size: 26px;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .hero-button{
-    width: 172px;
-    height: 41px;
+    display: inline-block;
+    margin-top: 25px;
+    padding: 9px 11px;
 
     border: none;
     border-radius: 1px;
     background-color: #5094F2;
     color: white;
+    text-decoration: none;
     font-size: 22px;
 }
 
-
 .hero-tick{
-    float: left;
-    margin-left: 4px;
+    vertical-align: bottom;
     margin-right: 11px;
-}
 
-.hero-link{
-    text-decoration: none;
-    color: white;
+    width: 23px;
+    height: 23px;
 }
 
 main{
     padding: 57px 140px 85px 140px;
+    text-align: center;
 }
 
-.icon-block{
+.card-container{
     display: inline-block;
     text-align: center;
     max-width: 254px;
+}
+
+.icon-container{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    width: 185px;
+    height: 185px;
+    display: inline-block;
+    margin-bottom: 25px;
 }
 
 .margin-right{
@@ -110,27 +141,15 @@ main{
 }
 
 .pencil-icon{
-    width: 185px;
-    height: 185px;
     background: url("../images/pencil-icon.png");
-    display: inline-block;
-    margin-bottom: 25px;
 }
 
 .computer-icon{
-    width: 185px;
-    height: 185px;
     background: url("../images/computer-icon.png");
-    display: inline-block;
-    margin-bottom: 25px;
 }
 
 .shopping-icon{
-    width: 185px;
-    height: 185px;
     background: url("../images/shopping-icon.png");
-    display: inline-block;
-    margin-bottom: 25px;
 }
 
 .block-title{
@@ -142,53 +161,58 @@ main{
 .block-text{
     font-size: 14px;
     color: #909090;
+
+    line-height: 17px;
 }
 
-.under-img{
+.shopping-cart-section{
+    display: inline-block;
+}
+
+.prechu-cart-image{
+    display: inline-block;
+
     width: 371px;
     height: 279px;
-    background: url("../images/cart-icon.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-.under-footer{
-  padding: 0 160px 61px 160px; 
-  position: relative;
-}
-
-.under-title{
+.shopping-cart-title{
     font-size: 42px;
     color: #6F7173;
     margin-bottom: 34px;
+
+    text-align: left;
 }
 
-.under-text-title{
+.cart-aside-title{
     font-size: 26px;
     color: #6F7173;
     margin-bottom: 29px;
 }
 
-.under-text-paragraph{
+.cart-aside-text{
     font-size: 15px;
     color: #909090;
     line-height: 36px;
 }
 
-.under-foot{
-    position: absolute;
+.cart-aside{
+    display: inline-block;
+    margin-left: 84px;
+    max-width: 481px;
+
+    text-align: left;
+}
+
+.prechu-footer{
     text-align: center;
+
+    margin-top: 50px;
+    padding: 32px 0 43px 0;
+    border-top: 1px solid #E5E5E5;
 }
 
-.under-text{
-   width: 481px;
-   position: absolute;
-   left: 50%;
-   top: 55px;
-}
-
-.copyright{
+.prechu-copyright{
     font-size: 15px;
     color: #909090;
 }

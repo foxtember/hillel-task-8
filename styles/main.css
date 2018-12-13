@@ -1,4 +1,97 @@
 body{
+    min-width: 1250px;
+    font-family: Arial, sans-serif;
+}
+
+.wrapper{
     max-width: 1000px;
-    min-width: 1000px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+header{
+    padding: 23px 115px 19px 150px;
+}
+
+.logo-img, .logo-text{
+    display: inline-block;
+    float: left;
+
+    font-size: 42px;
+    letter-spacing: 1,5px;
+    font-weight: 400;
+
+    margin-right: 12px;
+}
+
+nav a{
+    float: right;
+
+    text-decoration: none;
+    font-size: 20px;
+    color: #6C6C6C;
+
+    margin-left: 45px;
+    margin-top: 11px;
+}
+
+.hero{
+    background: url("../images/background-banner.png") no-repeat center / cover;
+    width: 100%;
+    padding: 40px 192px 16px 177px;
+    position: relative;
+}
+
+.hero-iphone{
+    display: inline-block;
+    width: 345px;
+    height: 436px;
+
+    margin-right: 100px;
+    background: url("../images/iphone-banner.png") no-repeat center / cover;
+}
+
+.hero-text{
+    display: inline-block;
+    position: absolute;
+}
+
+.hero-title{
+    margin-top: 120px;
+    display: block;
+    font-size: 42px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.hero-subtitle{
+    display: block;
+    font-size: 26px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.hero-button{
+    width: 172px;
+    height: 41px;
+
+    border: none;
+    border-radius: 1px;
+    background-color: #5094F2;
+    color: white;
+    font-size: 22px;
+}
+
+
+.hero-tick{
+    float: left;
+    margin-left: 4px;
+    margin-right: 11px;
+}
+
+.hero-link{
+    text-decoration: none;
+    color: white;
 }

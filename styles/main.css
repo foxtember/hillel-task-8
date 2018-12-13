@@ -91,3 +91,105 @@ nav a{
     text-decoration: none;
     color: white;
 }
+
+main{
+    padding: 57px 140px 85px 140px;
+}
+
+.icon-block{
+    display: inline-block;
+    text-align: center;
+    max-width: 254px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.margin-right{
+    margin-right: 128px;
+}
+
+.pencil-icon{
+    width: 185px;
+    height: 185px;
+    background: url("../images/pencil-icon.png");
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.computer-icon{
+    width: 185px;
+    height: 185px;
+    background: url("../images/computer-icon.png");
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.shopping-icon{
+    width: 185px;
+    height: 185px;
+    background: url("../images/shopping-icon.png");
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.block-title{
+    font-size: 20px;
+    color: #5094F2;
+    margin-bottom: 9px;
+}
+
+.block-text{
+    font-size: 14px;
+    color: #909090;
+}
+
+.under-img{
+    width: 371px;
+    height: 279px;
+    background: url("../images/cart-icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.under-footer{
+  padding: 0 160px 61px 160px; 
+  position: relative;
+}
+
+.under-title{
+    font-size: 42px;
+    color: #6F7173;
+    margin-bottom: 34px;
+}
+
+.under-text-title{
+    font-size: 26px;
+    color: #6F7173;
+    margin-bottom: 29px;
+}
+
+.under-text-paragraph{
+    font-size: 15px;
+    color: #909090;
+    line-height: 36px;
+}
+
+.under-foot{
+    position: absolute;
+    text-align: center;
+}
+
+.under-text{
+   width: 481px;
+   position: absolute;
+   left: 50%;
+   top: 55px;
+}
+
+.copyright{
+    font-size: 15px;
+    color: #909090;
+}
+

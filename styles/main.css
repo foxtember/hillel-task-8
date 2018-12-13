@@ -3,10 +3,6 @@ body{
     font-family: Arial, sans-serif;
 }
 
-.wrapper{
-    max-width: 1000px;
-}
-
 .clearfix{
     clear: both;
 }
